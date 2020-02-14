@@ -20,7 +20,7 @@ public class PrimeNumber {
 	public static void getPrimeNumbers(int num) {
 		for (int i=2;i<=num;i++)
 		{
-			if(isPrimeNumber(num))
+			if(isPrimeNumber(i))
 			
 				System.out.println(i +" ");
 			
@@ -28,7 +28,7 @@ public class PrimeNumber {
 	}
 public static void main(String args[])
 {
-//System.out.println(isPrimeNumber(6));
+System.out.println(isPrimeNumber(2));
 	getPrimeNumbers(20);
 }
 }

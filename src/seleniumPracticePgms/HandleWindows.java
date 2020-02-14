@@ -27,6 +27,7 @@ public class HandleWindows {
 		 driver.findElement(By.id("button1")).click();
 		//Actions action=new Actions(driver);
 		//action.moveToElement(newWindow).click().build().perform();
+		 
 		
 		Set<String> allHandles = driver.getWindowHandles();
 		Iterator<String> itr = allHandles.iterator();
